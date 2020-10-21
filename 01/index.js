@@ -1,4 +1,7 @@
 {
+    //任意のビデオを選択
+    videoPass = "../" + videoPass;
+
     let ready = (callbackFunc) => {
         if (document.readyState !== 'loading') {
             callbackFunc();
@@ -19,7 +22,8 @@
         });
         video.src({
             type: 'video/mp4',
-            src: '../video/Bullfinch.mp4'
+            //src: '../video/sample.mp4'
+            src: videoPass
         });
         video.on(['loadstart', 'loadedmetadata', 'loadeddata', 'play', 'playing', 'pause', 'suspend', 'seeking', 'seeked', 'waiting', 'canplay', 'canplaythrough', 'ratechange', 'ended', 'emptied', 'error', 'abort'], (e) => {
             console.log(`EVENT: ${e.type}`);
