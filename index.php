@@ -11,7 +11,7 @@
         if(is_file($file)){
             //print(htmlspecialchars($file)."<br>");
     ?>
-            <a href="./01/play.php?videoPass=<?php print($file) ?>"><?php echo $file ?></a>
+            <a href="./01/play.php?videoPass=<?php print($file) ?>&videoName=<?php print((substr($file, 6, -4))); ?>"><?php print(substr($file,6)); ?></a>
     <?php
         }
       }
