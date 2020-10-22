@@ -6,6 +6,7 @@
   </head>
   <body style="background-color:white">
     <p><a href="./01/play.php">サンプルビデオ</a></p>
+    <p><a href="./02/vod.php">VOD sample</a></p>
     <?php
       foreach(glob('video/{*.mp4}',GLOB_BRACE) as $file){
         if(is_file($file)){
@@ -16,5 +17,6 @@
         }
       }
     ?>
+    <br>
   </body>
 </html>
