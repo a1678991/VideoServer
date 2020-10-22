@@ -17,6 +17,7 @@
       }
     ?>
     <br>
+    <p>VOD一覧</p>
     <?php
       foreach(glob('workspace/{*.m3u8}',GLOB_BRACE) as $file){
         if(is_file($file)){
