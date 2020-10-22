@@ -1,7 +1,15 @@
 <DOCTYPE html>
 <html lang="en" class="">
     <head>
-        <title>VOD sample</title>
+        <title>
+            VOD ”<?php
+                if(isset($_GET["videoName"])){
+                    print($_GET["videoName"]);
+                }else {
+                    echo "読み込めませんでした";
+                }
+            ?>”
+        </title>
         <link href="./video-js.min.css" rel="stylesheet">
         <script src="./hls.min.js"></script>
         <script type="text/javascript">
