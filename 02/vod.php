@@ -2,8 +2,8 @@
 <html lang="en" class="">
     <head>
         <title>VOD sample</title>
-        <link href="http://vjs.zencdn.net/5.11/video-js.min.css" rel="stylesheet">
-        <script src="http://cdn.jsdelivr.net/hls.js/latest/hls.min.js"></script>
+        <link href="../video-js.min.css" rel="stylesheet">
+        <script src="../hls.min.js"></script>
     </head>
     <body>
         <p> Video On Demand </p>
