@@ -50,10 +50,9 @@
                     }
                 }
             </script>
+            <br>
+            <a href="../index.php">トップへ戻る</a>
         </div>
-        <br>
-        <a href="../index.php">トップへ戻る</a>
-
         <footer>
             <p>© All rights reserved by ue8d.</p>
         </footer>
