@@ -5,11 +5,11 @@
     <title>いんでっくす</title>
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
   </head>
-  <body style="background-color:white">
+  <body style="background-color:white" class="index">
     <!-- ヘッダー読み込み -->
     <?php include_once "./header.php" ?>
 
-    <div class = "main">
+    <div class="main">
       <p>サンプルムービー</p>
       <?php
         foreach(glob('video/{*.mp4}',GLOB_BRACE) as $file){
@@ -24,7 +24,7 @@
       <br>
       <p>VOD一覧</p>
       <?php
-        foreach(glob('workspace/{*.m3u8}',GLOB_BRACE) as $file){
+        foreach(glob('encVideo/{*.m3u8}',GLOB_BRACE) as $file){
           if(is_file($file)){
             //print(htmlspecialchars($file)."<br>");
       ?>
