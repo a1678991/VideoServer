@@ -11,12 +11,14 @@
             ?>”
         </title>
         <link href="./video-js.min.css" rel="stylesheet">
+        <link href="../CSS/index.css" rel="stylesheet">
         <script src="./hls.min.js"></script>
         <script type="text/javascript">
             var source = "<?php echo $_GET['videoPass']; ?>";
         </script>
     </head>
     <body>
+        <?php include_once "../header.php" ?>
         <p>
             <?php
                 if(isset($_GET["videoName"])){
@@ -53,5 +55,9 @@
         </script>
         <br>
         <a href="../index.php">トップへ戻る</a>
+
+        <footer>
+            <p>© All rights reserved by ue8d.</p>
+        </footer>
     </body>
 </html>
