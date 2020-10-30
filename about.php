@@ -14,7 +14,7 @@
       <p>HDD内の動画をブラウザ上で閲覧できるようにしたサイトです。</p>
     </div>
 
-    <footer>
+    <footer class="vod">
       <p>© All rights reserved by ue8d.</p>
     </footer>
   </body>

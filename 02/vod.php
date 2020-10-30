@@ -13,9 +13,9 @@
             var source = "<?php echo $_GET['videoPass']; ?>";
         </script>
     </head>
-    <body style="background-color:white" class="vod">
+    <body style="background-color:white">
         <?php include_once "../header.php" ?>
-        <p>
+        <p class="title">
             <?php
                 if(isset($_GET["videoName"])){
                     print($_GET["videoName"]);
@@ -53,7 +53,7 @@
             <br>
             <a href="../index.php">トップへ戻る</a>
         </div>
-        <footer>
+        <footer class="vod">
             <p>© All rights reserved by ue8d.</p>
         </footer>
     </body>

@@ -5,7 +5,7 @@
     <title>ue8d's Videos</title>
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
   </head>
-  <body style="background-color:white" class="index">
+  <body style="background-color:white">
     <!-- ヘッダー読み込み -->
     <?php include_once "./header.php" ?>
 
@@ -35,7 +35,7 @@
       ?>
     </div>
 
-    <footer>
+    <footer class="index">
       <p>© All rights reserved by ue8d.</p>
     </footer>
   </body>

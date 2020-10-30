@@ -1,16 +1,11 @@
 * {
     box-sizing: border-box;
 }
-body.index {
+body {
     margin: 0;
     padding: 0;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #e6e6e6;
-}
-body.vod {
-    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #e6e6e6;
-    text-align: center;
 }
 
 /* ヘッダー */
@@ -45,8 +40,14 @@ li.header {
 }
 
 /* メインコンテンツ */
+p.title {
+    text-align: center;
+}
 div.main {
     text-align:center;
+    min-height: 80vh;
+    position: relative;/*←相対位置*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
 }
 
 div.vod {
@@ -58,7 +59,17 @@ div.vod {
     -ms-transform: translate(-50%, -50%);
 }
 
-footer{
+/* フッター */
+footer.index{
+    width: 100%;
+    background-color: #89c7de;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+    position: absolute;/*←絶対位置*/
+}
+footer.vod{
     width: 100%;
     background-color: #89c7de;
     color: #fff;

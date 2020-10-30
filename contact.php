@@ -14,7 +14,7 @@
       <p>連絡先などを書いておく</p>
     </div>
 
-    <footer>
+    <footer class="vod">
       <p>© All rights reserved by ue8d.</p>
     </footer>
   </body>
