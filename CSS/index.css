@@ -1,11 +1,16 @@
 * {
     box-sizing: border-box;
 }
-body {
+body.index {
     margin: 0;
     padding: 0;
     font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #e6e6e6;
+}
+body.vod {
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6;
+    text-align: center;
 }
 
 /* ヘッダー */
@@ -42,6 +47,15 @@ li.header {
 /* メインコンテンツ */
 div.main {
     text-align:center;
+}
+
+div.vod {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 footer{
