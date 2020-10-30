@@ -6,17 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
   </head>
   <body style="background-color:white">
-    <header>
-      <h1 class="header">
-          <a class="header" href="/">ue8d's Videos</a>
-      </h1 class="header">
-      <nav class="pc-nav">
-          <ul class="header">
-              <li class="header"><a class="header" href="#">ABOUT</a></li>
-              <li class="header"><a class="header" href="#">CONTACT</a></li>
-          </ul>
-      </nav>
-    </header>
+    <?php include_once "./header.php" ?>
 
     <div class = "main">
       <p>サンプルムービー</p>
@@ -45,7 +35,7 @@
     </div>
 
     <footer>
-      <!-- フッター -->
+    <p>© All rights reserved by ue8d.</p>
     </footer>
   </body>
 </html>
