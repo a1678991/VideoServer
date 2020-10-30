@@ -2,7 +2,7 @@
   <html>
   <head>
     <meta charset="utf-8" />
-    <title>いんでっくす</title>
+    <title>ue8d's Videos</title>
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
   </head>
   <body style="background-color:white" class="index">
@@ -28,7 +28,7 @@
           if(is_file($file)){
             //print(htmlspecialchars($file)."<br>");
       ?>
-            <a href="./02/vod.php?videoPass=<?php print($file) ?>&videoName=<?php print((substr($file, 10, -5))); ?>"><?php print(substr($file,10,-5)); ?></a>
+            <a href="./02/vod.php?videoPass=<?php print($file) ?>&videoName=<?php print((substr($file,28,-20))); ?>"><?php print(substr($file,28,-20)); ?></a>
       <?php
           }
         }
