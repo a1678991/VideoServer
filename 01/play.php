@@ -22,5 +22,7 @@
       ?>
     </p>
     <video id="video1" class="video-js vjs-default-skin vjs-big-play-centered"></video>
+    <br>
+    <a href="../index.php">トップへ戻る</a>
   </body>
 </html>

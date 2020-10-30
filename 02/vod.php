@@ -51,5 +51,7 @@
                 }
             }
         </script>
+        <br>
+        <a href="../index.php">トップへ戻る</a>
     </body>
 </html>
