@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
   </head>
   <body style="background-color:white">
+    <!-- ヘッダー読み込み -->
     <?php include_once "./header.php" ?>
 
     <div class = "main">
@@ -35,7 +36,7 @@
     </div>
 
     <footer>
-    <p>© All rights reserved by ue8d.</p>
+      <p>© All rights reserved by ue8d.</p>
     </footer>
   </body>
 </html>
